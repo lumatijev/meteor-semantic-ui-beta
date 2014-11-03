@@ -1,7 +1,4 @@
-#CURRENTLY NOT WORKING CORRECTLY
-Don't have enough time to fix bugs after updating to a new version...
-
-##Semantic UI Beta (less) packaged for Meteor
+##Semantic UI Beta packaged for Meteor
 
 ###Semantic UI
 Open source UI library - [http://beta.semantic-ui.com/](http://beta.semantic-ui.com/)
