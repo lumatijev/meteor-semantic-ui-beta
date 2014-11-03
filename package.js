@@ -1,6 +1,6 @@
 Package.describe({
 	summary: "Semantic UI Beta",
-	version: "1.0.11",
+	version: "1.0.12",
 	name: "lumatijev:semantic-ui-beta",
 	git: "https://github.com/lumatijev/meteor-semantic-ui-beta.git"
 });
@@ -12,8 +12,11 @@ Package.onUse(function(api) {
 	var path = Npm.require('path');
 	var assetPath = path.join('lib/semantic-ui-beta/dist/');
 	var assetFiles = [
+		assetPath + 'reset.min.css',
 		assetPath + 'semantic.min.css',
 		assetPath + 'semantic.min.js',
+		assetPath + 'site.min.css',
+		assetPath + 'site.min.js',
 		assetPath + 'fonts/icons.eot',
 		assetPath + 'fonts/icons.otf',
 		assetPath + 'fonts/icons.svg',
